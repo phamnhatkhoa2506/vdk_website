@@ -36,3 +36,10 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+
+
+Xem biến động theo thời gian	Line Chart, Area
+So sánh nhiều loại dữ liệu tại 1 thời điểm	Bar Chart
+Tương quan giữa hai chỉ số	Scatter Plot
+Hiển thị realtime	Gauge/Dial
+Biểu diễn nhiều thời điểm theo cường độ	Heatmap
