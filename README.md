@@ -43,3 +43,6 @@ So sánh nhiều loại dữ liệu tại 1 thời điểm	Bar Chart
 Tương quan giữa hai chỉ số	Scatter Plot
 Hiển thị realtime	Gauge/Dial
 Biểu diễn nhiều thời điểm theo cường độ	Heatmap
+
+Link web: https://vdk-website.vercel.app/
+link github: https://github.com/phamnhatkhoa2506/vdk_website

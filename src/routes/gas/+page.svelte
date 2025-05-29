@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Temperature</title>
+    <title>Concentration</title>
 </svelte:head>
 
 <script lang="ts">

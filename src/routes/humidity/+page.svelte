@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Temperature</title>
+    <title>Humidity</title>
 </svelte:head>
 
 <script lang="ts">
@@ -8,7 +8,6 @@
     import FilterBar from '../../components/FilterBar.svelte';
     import HumidityLineChart from '../../components/HumidityLineChart.svelte';
     import HumidityAreaChart from '../../components/HumidityAreaChart.svelte';
-    import HumidityHeatmap from '../../components/HumidityHeatmap.svelte';
 
     let lineCanvas: HTMLCanvasElement;
     let areaCanvas: HTMLCanvasElement;
@@ -104,11 +103,6 @@
 <div class="chart-container" style="max-width: 1000px; margin: auto;">
     <canvas bind:this={areaCanvas}></canvas>
     <HumidityAreaChart canvas={areaCanvas} {labels} {data} />
-</div>
-
-<h3 class="title">Humidity (Heatmap)</h3>
-<div class="chart-container" style="max-width: 1000px; margin: auto;">
-    <HumidityHeatmap {matrixData} {xLabels} {yLabels} />
 </div>
 
 <style>
